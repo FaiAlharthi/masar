@@ -1,0 +1,354 @@
+[
+  {
+    "id": "commercial_registration",
+    "name": {
+      "ar": "السجل التجاري",
+      "en": "Commercial Registration"
+    },
+    "authority": {
+      "ar": "وزارة التجارة — منصة الأعمال",
+      "en": "Ministry of Commerce — Business Platform"
+    },
+    "authority_url": "https://business.sa",
+    "classification": "required",
+    "condition": null,
+    "definition": {
+      "ar": "وثيقة رسمية تثبت قيد نشاطك التجاري لدى وزارة التجارة، وهي الأساس القانوني لممارسة أي نشاط تجاري في السعودية. لازم تستخرجه قبل أي ترخيص ثاني.",
+      "en": "An official document that registers your business activity with the Ministry of Commerce. It's the legal foundation for practicing any commercial activity in Saudi Arabia and must be issued before any other license."
+    },
+    "steps": [
+      {
+        "ar": "سجّل حساب في منصة الأعمال (business.sa) بواسطة النفاذ الوطني الموحد.",
+        "en": "Create an account on the Business Platform (business.sa) using Nafath (national single sign-on)."
+      },
+      {
+        "ar": "اختر النشاط التجاري المطابق من قائمة الأنشطة (ISIC) — منصة الأعمال ترشدك للأنشطة المرتبطة بمشروعك.",
+        "en": "Select the matching commercial activity from the activity list (ISIC) — the platform will guide you to activities related to your project."
+      },
+      {
+        "ar": "حدد الشكل القانوني للمنشأة (مؤسسة فردية أو شركة) وأدخل بيانات المالك/الشركاء.",
+        "en": "Choose the legal form of your business (sole proprietorship or company) and enter owner/partner details."
+      },
+      {
+        "ar": "ادفع رسوم إصدار السجل التجاري عبر بوابة الدفع الحكومية (سداد).",
+        "en": "Pay the commercial registration issuance fees through the government payment gateway (SADAD)."
+      },
+      {
+        "ar": "استلم شهادة السجل التجاري إلكترونيًا فور اكتمال الدفع والمراجعة.",
+        "en": "Receive your commercial registration certificate electronically once payment and review are complete."
+      }
+    ],
+    "prerequisites": [
+      { "ar": "حساب نفاذ موثّق", "en": "Verified Nafath account" },
+      { "ar": "عنوان وطني", "en": "National address" },
+      { "ar": "عمر 18 سنة فأكثر", "en": "Age 18 or older" }
+    ],
+    "cost": {
+      "amount": { "ar": "1200–2500", "en": "1200–2500" },
+      "currency": "SAR",
+      "is_approximate": true
+    },
+    "duration": {
+      "value": {
+        "ar": "فوري إلى يوم عمل واحد",
+        "en": "Immediate to one business day"
+      },
+      "is_approximate": true
+    },
+    "merchant_tip": {
+      "ar": "اختر النشاط الدقيق من قائمة ISIC من أول مرة — تعديل النشاط بعد الإصدار يحتاج إجراء منفصل وقد يأخر باقي التراخيص المرتبطة فيه.",
+      "en": "Pick the exact activity from the ISIC list the first time — changing it after issuance requires a separate process and can delay other licenses linked to it."
+    },
+    "last_verified": "2026-07-19"
+  },
+  {
+    "id": "municipal_license",
+    "name": {
+      "ar": "الرخصة البلدية",
+      "en": "Municipal License"
+    },
+    "authority": {
+      "ar": "وزارة الشؤون البلدية والقروية والإسكان — منصة بلدي",
+      "en": "Ministry of Municipal, Rural Affairs and Housing — Balady Platform"
+    },
+    "authority_url": "https://balady.gov.sa",
+    "classification": "conditional",
+    "condition": {
+      "ar": "مطلوبة فقط إذا كان للمشروع مقر فعلي (محل، مستودع، أو مقهى) — غير مطلوبة للنشاط الأونلاين بالكامل.",
+      "en": "Only required if the project has a physical location (shop, warehouse, or café) — not required for a fully online activity."
+    },
+    "definition": {
+      "ar": "ترخيص من الأمانة/البلدية المختصة يسمح بممارسة النشاط التجاري داخل موقع فعلي محدد، ويتأكد من مطابقة الموقع للاشتراطات البلدية.",
+      "en": "A license from the relevant municipality that authorizes commercial activity at a specific physical location and confirms the site meets municipal requirements."
+    },
+    "steps": [
+      {
+        "ar": "سجّل دخول على منصة بلدي (apps.balady.gov.sa) بحساب نفاذ.",
+        "en": "Log in to the Balady platform (apps.balady.gov.sa) with your Nafath account."
+      },
+      {
+        "ar": "اربط رقم السجل التجاري واختر الموقع (رقم الصك أو عقد الإيجار الموثّق).",
+        "en": "Link your commercial registration number and select the location (title deed or authenticated lease contract)."
+      },
+      {
+        "ar": "ارفع المخطط أو صورة الموقع حسب النشاط، وأكمل بيانات الاشتراطات.",
+        "en": "Upload the layout or site photos as required by the activity, and complete the requirements form."
+      },
+      {
+        "ar": "ادفع رسوم الرخصة، وانتظر معاينة ميدانية إذا كانت مطلوبة لنشاطك.",
+        "en": "Pay the license fees, and wait for a field inspection if required for your activity."
+      },
+      {
+        "ar": "استلم الرخصة البلدية إلكترونيًا بعد اعتماد الطلب.",
+        "en": "Receive the municipal license electronically once the application is approved."
+      }
+    ],
+    "prerequisites": [
+      { "ar": "سجل تجاري ساري", "en": "Valid commercial registration" },
+      { "ar": "عقد إيجار موثّق أو صك ملكية", "en": "Authenticated lease contract or title deed" },
+      { "ar": "عنوان وطني للموقع", "en": "National address for the location" }
+    ],
+    "cost": {
+      "amount": { "ar": "500–2000", "en": "500–2000" },
+      "currency": "SAR",
+      "is_approximate": true
+    },
+    "duration": {
+      "value": { "ar": "أسبوع إلى 3 أسابيع", "en": "One to three weeks" },
+      "is_approximate": true
+    },
+    "merchant_tip": {
+      "ar": "تأكد إن عقد الإيجار موثّق في منصة إيجار قبل ما تبدأ طلب الرخصة البلدية — العقد غير الموثق أشهر سبب لرفض الطلبات.",
+      "en": "Make sure your lease is authenticated on the Ejar platform before starting the municipal license application — an unauthenticated lease is the most common reason applications get rejected."
+    },
+    "last_verified": "2026-07-19"
+  },
+  {
+    "id": "civil_defense_certificate",
+    "name": {
+      "ar": "شهادة الدفاع المدني",
+      "en": "Civil Defense Certificate"
+    },
+    "authority": {
+      "ar": "المديرية العامة للدفاع المدني",
+      "en": "General Directorate of Civil Defense"
+    },
+    "authority_url": "https://912.gov.sa",
+    "classification": "required",
+    "condition": null,
+    "definition": {
+      "ar": "شهادة تثبت إن موقعك الفعلي مستوفٍ لاشتراطات السلامة (طفايات حريق، مخارج طوارئ، إنذار حريق)، وهي شرط أساسي لأي منشأة تقدم طعام أو شراب.",
+      "en": "A certificate confirming your physical premises meet safety requirements (fire extinguishers, emergency exits, fire alarms) — mandatory for any establishment serving food or drinks."
+    },
+    "steps": [
+      {
+        "ar": "قدّم طلب الكشف عبر منصة بلدي أو تطبيق الدفاع المدني بعد ربط الموقع بالسجل التجاري.",
+        "en": "Submit an inspection request via the Balady platform or the Civil Defense app after linking your location to the commercial registration."
+      },
+      {
+        "ar": "جهّز الموقع بمعدات السلامة المطلوبة (طفايات، لوحات إرشادية، مخارج طوارئ).",
+        "en": "Prepare the site with required safety equipment (extinguishers, signage, emergency exits)."
+      },
+      {
+        "ar": "احضر موعد المعاينة الميدانية من فريق الدفاع المدني.",
+        "en": "Attend the scheduled on-site inspection by the Civil Defense team."
+      },
+      {
+        "ar": "بعد اجتياز المعاينة، استلم الشهادة إلكترونيًا.",
+        "en": "After passing the inspection, receive the certificate electronically."
+      }
+    ],
+    "prerequisites": [
+      { "ar": "موقع فعلي جاهز بمعدات السلامة", "en": "A physical site ready with safety equipment" },
+      { "ar": "رخصة بلدية سارية أو طلب مقدّم", "en": "A valid municipal license, or an application in progress" }
+    ],
+    "cost": {
+      "amount": { "ar": "500–1500", "en": "500–1500" },
+      "currency": "SAR",
+      "is_approximate": true
+    },
+    "duration": {
+      "value": {
+        "ar": "أسبوع إلى أسبوعين بعد المعاينة",
+        "en": "One to two weeks after the inspection"
+      },
+      "is_approximate": true
+    },
+    "merchant_tip": {
+      "ar": "جهّز معدات السلامة كاملة قبل ما تحجز موعد المعاينة — إذا رسبت المعاينة بتنتظر دور جديد وقد يتأخر افتتاحك أسابيع إضافية.",
+      "en": "Have all safety equipment ready before booking the inspection — failing it means waiting for a new slot, which can delay your opening by several extra weeks."
+    },
+    "last_verified": "2026-07-19"
+  },
+  {
+    "id": "food_safety_certificate",
+    "name": {
+      "ar": "شهادة الاشتراطات الصحية للأغذية",
+      "en": "Food Safety Requirements Certificate"
+    },
+    "authority": {
+      "ar": "الهيئة العامة للغذاء والدواء (SFDA)",
+      "en": "Saudi Food and Drug Authority (SFDA)"
+    },
+    "authority_url": "https://www.sfda.gov.sa",
+    "classification": "required",
+    "condition": null,
+    "definition": {
+      "ar": "شهادة تؤكد إن منشأتك تطبق اشتراطات سلامة الغذاء (تخزين، تحضير، نظافة العاملين)، وتشمل شهادات صحية فردية لكل عامل يتعامل مع الطعام.",
+      "en": "A certificate confirming your establishment applies food safety requirements (storage, preparation, staff hygiene), including individual health certificates for every food handler."
+    },
+    "steps": [
+      {
+        "ar": "سجّل منشأتك في نظام الاشتراطات الصحية التابع للهيئة العامة للغذاء والدواء.",
+        "en": "Register your establishment in SFDA's health requirements system."
+      },
+      {
+        "ar": "استخرج شهادة صحية لكل عامل يتعامل مباشرة مع الطعام (فحص طبي + دورة سلامة غذاء).",
+        "en": "Obtain a health certificate for every worker who handles food directly (medical exam + food safety course)."
+      },
+      {
+        "ar": "طبّق اشتراطات التخزين والنظافة في الموقع حسب دليل الهيئة.",
+        "en": "Apply the storage and hygiene requirements at the site according to SFDA's guide."
+      },
+      {
+        "ar": "اجتز التفتيش الدوري الأول بعد الافتتاح.",
+        "en": "Pass the first periodic inspection after opening."
+      }
+    ],
+    "prerequisites": [
+      { "ar": "رخصة بلدية سارية", "en": "Valid municipal license" },
+      { "ar": "شهادات صحية للعاملين", "en": "Health certificates for staff" }
+    ],
+    "cost": {
+      "amount": {
+        "ar": "300–800 لكل عامل تقريبًا",
+        "en": "300–800 per worker, approximately"
+      },
+      "currency": "SAR",
+      "is_approximate": true
+    },
+    "duration": {
+      "value": { "ar": "أسبوع إلى أسبوعين", "en": "One to two weeks" },
+      "is_approximate": true
+    },
+    "merchant_tip": {
+      "ar": "خذ الشهادات الصحية للعاملين بالتوازي مع باقي التراخيص — فحصها الطبي يأخذ وقت منفصل ولو أجّلته لآخر لحظة بيأخر افتتاحك.",
+      "en": "Process staff health certificates in parallel with your other licenses — the medical exam takes separate time, and leaving it to the last minute will delay your opening."
+    },
+    "last_verified": "2026-07-19"
+  },
+  {
+    "id": "vat_registration",
+    "name": {
+      "ar": "التسجيل الضريبي (ضريبة القيمة المضافة)",
+      "en": "Tax Registration (VAT)"
+    },
+    "authority": {
+      "ar": "الهيئة العامة للزكاة والضريبة والجمارك (ZATCA)",
+      "en": "Zakat, Tax and Customs Authority (ZATCA)"
+    },
+    "authority_url": "https://zatca.gov.sa",
+    "classification": "conditional",
+    "condition": {
+      "ar": "إلزامي إذا تجاوزت (أو تتوقع تجاوز) إيراداتك السنوية 375,000 ريال. اختياري إذا كانت الإيرادات بين 187,500 و375,000 ريال.",
+      "en": "Mandatory if your annual revenue exceeds (or is expected to exceed) SAR 375,000. Optional if revenue is between SAR 187,500 and 375,000."
+    },
+    "definition": {
+      "ar": "تسجيل منشأتك لدى هيئة الزكاة والضريبة والجمارك عشان تقدر تحصّل وتورّد ضريبة القيمة المضافة (15%) على مبيعاتك، وتصدر فواتير ضريبية إلكترونية متوافقة.",
+      "en": "Registering your business with ZATCA to collect and remit Value Added Tax (15%) on your sales, and issue compliant e-invoices."
+    },
+    "steps": [
+      {
+        "ar": "سجّل دخول على بوابة زاتكا الإلكترونية بحساب منشأتك.",
+        "en": "Log in to the ZATCA e-portal with your business account."
+      },
+      {
+        "ar": "قدّم طلب التسجيل الضريبي وأدخل بيانات النشاط والإيرادات المتوقعة.",
+        "en": "Submit the VAT registration request and enter your activity and expected revenue details."
+      },
+      {
+        "ar": "استلم الشهادة الضريبية إلكترونيًا فور اعتماد الطلب.",
+        "en": "Receive your tax certificate electronically once the request is approved."
+      },
+      {
+        "ar": "جهّز نظام إصدار فواتير إلكترونية متوافق مع نظام (فاتورة).",
+        "en": "Set up an e-invoicing system compliant with the FATOORA system."
+      }
+    ],
+    "prerequisites": [
+      { "ar": "سجل تجاري ساري", "en": "Valid commercial registration" },
+      { "ar": "رقم آيبان لحساب بنكي باسم المنشأة", "en": "IBAN of a bank account in the business's name" }
+    ],
+    "cost": {
+      "amount": { "ar": "0", "en": "0" },
+      "currency": "SAR",
+      "is_approximate": true
+    },
+    "duration": {
+      "value": {
+        "ar": "فوري إلى بضعة أيام عمل",
+        "en": "Immediate to a few business days"
+      },
+      "is_approximate": true
+    },
+    "merchant_tip": {
+      "ar": "حتى لو ما وصلت الحد الإلزامي، التسجيل الاختياري يخليك تسترجع ضريبة المدخلات على مشترياتك ومصاريف تجهيز المشروع.",
+      "en": "Even below the mandatory threshold, voluntary registration lets you reclaim input VAT on your purchases and setup expenses."
+    },
+    "last_verified": "2026-07-19"
+  },
+  {
+    "id": "trademark_registration",
+    "name": {
+      "ar": "تسجيل العلامة التجارية",
+      "en": "Trademark Registration"
+    },
+    "authority": {
+      "ar": "الهيئة السعودية للملكية الفكرية (SAIP)",
+      "en": "Saudi Authority for Intellectual Property (SAIP)"
+    },
+    "authority_url": "https://www.saip.gov.sa",
+    "classification": "optional",
+    "condition": null,
+    "definition": {
+      "ar": "تسجيل اسم أو شعار مشروعك كعلامة تجارية محمية قانونيًا، يمنع الغير من استخدام نفس الاسم أو الشعار في نفس النشاط.",
+      "en": "Registering your business name or logo as a legally protected trademark, preventing others from using the same name or logo in the same activity."
+    },
+    "steps": [
+      {
+        "ar": "ابحث في قاعدة بيانات العلامات التجارية للتأكد إن الاسم غير مسجّل من قبل.",
+        "en": "Search the trademark database to confirm the name isn't already registered."
+      },
+      {
+        "ar": "قدّم طلب التسجيل عبر بوابة الهيئة السعودية للملكية الفكرية وحدد فئة النشاط.",
+        "en": "Submit the registration application through SAIP's portal and specify the activity class."
+      },
+      {
+        "ar": "ادفع رسوم الفحص والإيداع.",
+        "en": "Pay the examination and filing fees."
+      },
+      {
+        "ar": "انتظر فترة النشر والاعتراض (عادة عدة أشهر) قبل الإصدار النهائي.",
+        "en": "Wait through the publication and opposition period (typically several months) before final issuance."
+      }
+    ],
+    "prerequisites": [
+      { "ar": "سجل تجاري ساري", "en": "Valid commercial registration" },
+      { "ar": "تصميم الشعار/الاسم بصيغة واضحة", "en": "A clear design of the logo/name" }
+    ],
+    "cost": {
+      "amount": { "ar": "1000–3600", "en": "1000–3600" },
+      "currency": "SAR",
+      "is_approximate": true
+    },
+    "duration": {
+      "value": { "ar": "6–12 شهر", "en": "6–12 months" },
+      "is_approximate": true
+    },
+    "merchant_tip": {
+      "ar": "سجّل علامتك التجارية بدري حتى لو المشروع صغير — كل ما طال انتظارك زاد احتمال إن حد ثاني يسجّل اسم مشابه قبلك.",
+      "en": "Register your trademark early even if the project is small — the longer you wait, the higher the chance someone else registers a similar name first."
+    },
+    "last_verified": "2026-07-19"
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "ecommerce_store",
+    "name": {
+      "ar": "متجر إلكتروني",
+      "en": "Online Store"
+    },
+    "isic_code": "4791",
+    "keywords": [
+      "متجر",
+      "متجر الكتروني",
+      "متجر إلكتروني",
+      "أونلاين",
+      "اونلاين",
+      "بيع اونلاين",
+      "تجارة الكترونية",
+      "سناب",
+      "انستقرام",
+      "منصة بيع",
+      "shop",
+      "store",
+      "ecommerce",
+      "e-commerce",
+      "online store",
+      "online shop"
+    ],
+    "customization_questions": [
+      {
+        "id": "location",
+        "question": {
+          "ar": "مشروعك أونلاين بالكامل، أو عندك مقر فعلي (مستودع أو محل) كمان؟",
+          "en": "Is your project fully online, or do you also have a physical location (warehouse or shop)?"
+        },
+        "options": [
+          {
+            "id": "online",
+            "label": { "ar": "أونلاين بالكامل", "en": "Fully online" }
+          },
+          {
+            "id": "physical",
+            "label": { "ar": "عندي مقر فعلي كمان", "en": "I also have a physical location" }
+          }
+        ]
+      }
+    ],
+    "license_map": {
+      "online": [
+        "commercial_registration",
+        "vat_registration",
+        "trademark_registration"
+      ],
+      "physical": [
+        "commercial_registration",
+        "municipal_license",
+        "vat_registration",
+        "trademark_registration"
+      ]
+    }
+  },
+  {
+    "id": "cafe",
+    "name": {
+      "ar": "مقهى",
+      "en": "Café"
+    },
+    "isic_code": "5630",
+    "keywords": [
+      "مقهى",
+      "كافيه",
+      "كوفي",
+      "قهوة",
+      "قهوة مختصة",
+      "كوفي شوب",
+      "كافي",
+      "cafe",
+      "café",
+      "coffee",
+      "coffee shop"
+    ],
+    "customization_questions": [],
+    "license_map": {
+      "default": [
+        "commercial_registration",
+        "municipal_license",
+        "civil_defense_certificate",
+        "food_safety_certificate",
+        "vat_registration",
+        "trademark_registration"
+      ]
+    }
+  },
+  {
+    "id": "restaurant",
+    "name": {
+      "ar": "مطعم",
+      "en": "Restaurant"
+    },
+    "isic_code": "5610",
+    "keywords": [
+      "مطعم",
+      "مطاعم",
+      "مأكولات",
+      "أكل",
+      "وجبات",
+      "مطبخ",
+      "restaurant",
+      "diner",
+      "eatery",
+      "food service"
+    ],
+    "customization_questions": [],
+    "license_map": {
+      "default": [
+        "commercial_registration",
+        "municipal_license",
+        "civil_defense_certificate",
+        "food_safety_certificate",
+        "vat_registration",
+        "trademark_registration"
+      ]
+    }
+  },
+  {
+    "id": "salon",
+    "name": {
+      "ar": "صالون",
+      "en": "Salon"
+    },
+    "isic_code": "9602",
+    "keywords": [
+      "صالون",
+      "صالون تجميل",
+      "صالون حلاقة",
+      "حلاقة",
+      "كوافير",
+      "تجميل",
+      "مركز تجميل",
+      "salon",
+      "beauty salon",
+      "hair salon",
+      "barbershop"
+    ],
+    "customization_questions": [],
+    "license_map": {
+      "default": [
+        "commercial_registration",
+        "municipal_license",
+        "civil_defense_certificate",
+        "vat_registration",
+        "trademark_registration"
+      ]
+    }
+  }
+]
